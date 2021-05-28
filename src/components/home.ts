@@ -1,12 +1,18 @@
 import React from 'react';
 
 class Home extends React.Component {
-  constructor(props: any) {
-    super(props);
-  }
-  
   render( ) { 
-    return null;
+    return (
+      <div>
+        <h1>home</h1>
+          <ul>
+            <li>
+              <Link to="/"
+            </li>
+          </ul>
+
+      </div>
+    )
   }
 }
 
