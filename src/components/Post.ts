@@ -10,7 +10,6 @@ export default class Post extends Component {
 }
 
 
-/*
 class Post extends React.Component<{}, {}> {
   constructor(props: any) {
     super(props);
@@ -24,5 +23,3 @@ class Post extends React.Component<{}, {}> {
 }
 
 export default Post;
-
-*/

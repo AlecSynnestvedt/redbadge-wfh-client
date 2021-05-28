@@ -16,23 +16,23 @@ import {
 // into multiple bundles because code-splitting a
 // React Router app is the same as code-splitting
 // any other React app.
-/*
-export default function NestedNav() {
-  return (){
 
-    render
-    <Router>
-    <div>
-    <ul>
-    <li>
-    <Link to="/">Home</Link>
-    </li>
-    <li>
-    <Link to="/posts">Posts</Link>
-    </li>
-    </ul>
+export default function NestedNav() {
+  return () {
+
+    render(
+      <Router>
+        <div>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+                </li>
+            <li>
+              <Link to="/posts">Posts</Link>
+            </li>
+          </ul>
     
-    <hr />
+        <hr />
     
     <Switch>
     <Route exact path="/">
@@ -67,15 +67,12 @@ function Topics() {
       <h2>Topics</h2>
       <ul>
         <li>
-          <Link to={`${url}/rendering`}>Rendering with React</Link>
+          <Link to={`${url}/comments`}>Comments</Link>
         </li>
         <li>
-          <Link to={`${url}/components`}>Components</Link>
+          <Link to={`${url}/posts`}>Posts</Link>
         </li>
-        <li>
-          <Link to={`${url}/props-v-state`}>Props v. State</Link>
-        </li>
-      </ul>
+       </ul>
 
       <Switch>
         <Route exact path={path}>
